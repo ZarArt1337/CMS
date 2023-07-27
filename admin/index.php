@@ -194,11 +194,11 @@
                                 $select_posts = mysqli_query($connection,$query);
 
                                 while($row = mysqli_fetch_assoc($select_posts)) {
-                                    $post_id = escape($row['post_id']);
-                                    $post_author = escape($row['post_author']);
-                                    $post_title = escape($row['post_title']);
-                                    $post_image = escape($row['post_image']);
-                                    $post_content = escape(substr($row['post_content'],0,150));
+                                    $post_id = $row['post_id'];
+                                    $post_author = $row['post_author'];
+                                    $post_title = $row['post_title'];
+                                    $post_image = $row['post_image'];
+                                    $post_content = substr($row['post_content'],0,150));
   
                                     echo "<div class='border'>";
                                     echo "<p class='p-2'>Author: $post_author</p>";

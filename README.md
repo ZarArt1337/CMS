@@ -6,4 +6,7 @@ Technologies used:
 
 HTML5, CSS3, JS, Bootstrap5, PHP, SQL, MariaDB
 
-Website address : http://www.ZarArt.pl/cms
+Website address : http://www.ArtZar.pl/cms
+
+Login: admin
+Password: admin
